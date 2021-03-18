@@ -1,0 +1,464 @@
+<?xml version="1.0"?>
+<tags>
+
+	<!-- Inventory Tags -->
+	<tag hidetag='true' icon='star'         keyword='Unique' />
+
+	<!-- 4estGimp -->
+	<tag hidetag='true' icon='w_1h' 		keyword='Melee1H' />				<!-- Added -->	
+	<tag hidetag='true' icon='w_2h' 		keyword='Melee2H' />				<!-- Added -->
+	<tag hidetag='true' icon='w_ripper'		keyword='Ripper' />					<!-- Added -->
+
+	<tag hidetag='true' icon='w_musket'     keyword='Musket' />					<!-- Added -->
+	
+	<tag hidetag='true' icon='armrad' 		keyword='Biosuit' />				<!-- Added -->	
+	<tag hidetag='true'	icon='radsuit'		keyword='Hazmat' />					<!-- Added -->	
+
+<!-- Backpacks and Satchels -->
+	<!--<tag hidetag='true'	icon='camp2'		keyword='Camping' />--> <!-- Redundant - in AID section -->	
+	<tag hidetag='true'	icon='la_packfull'	keyword='PackFull' />
+	<tag hidetag='true'	icon='pack'			keyword='Pack' />
+	<tag hidetag='true'	icon='la_packlower'	keyword='PackLow' />
+		
+	<!-- Weapons -->	
+	<tag hidetag='true' icon='w_baseball_bat'       keyword='Swatter' />
+	<tag hidetag='true' icon='w_disarm'             keyword='Unarmed' />
+	<tag hidetag='true' icon='w_baseball_bat'       keyword='Melee' />
+	<tag hidetag='true' icon='w_baseball_bat'       keyword='BaseballBat' />
+	<tag hidetag='true' icon='w_combat_knife'       keyword='CombatKnife' />
+	<tag hidetag='true' icon='w_shish'              keyword='Shish' />
+	<tag hidetag='true' icon='w_rev_dword'          keyword='RevDword' />
+	<tag hidetag='true' icon='w_super_sledge'       keyword='SuperSledge' />
+	<tag hidetag='true' icon='weap'                 keyword='Pistol' />
+	<tag hidetag='true' icon='w_10mm'               keyword='10mm' />
+	<tag hidetag='true' icon='w_the_deliverer'      keyword='TheDeliverer' />
+	<tag hidetag='true' icon='w_44p'                keyword='44P' />
+	<tag hidetag='true' icon='w_institute_pistol'   keyword='InstitutePistol' />
+	<tag hidetag='true' icon='w_pipe_revolver'      keyword='PipeRevolver' />
+	<tag hidetag='true' icon='w_laser_pistol'       keyword='LaserPistol' />
+	<tag hidetag='true' icon='w_plasma_pistol'      keyword='PlasmaPistol' />
+	<tag hidetag='true' icon='w_alien'              keyword='AlienGun' />
+	<tag hidetag='true' icon='w_cryo'               keyword='Cryo' /> 
+	<tag hidetag='true' icon='w_syringer'           keyword='Syringer' />
+	<tag hidetag='true' icon='w_pipe_rifle'         keyword='PipeRifle' />
+	<tag hidetag='true' icon='w_leveraction_rifle'  keyword='Leveraction' />
+	<tag hidetag='true' icon='w_rifle'              keyword='Rifle' />
+	<tag hidetag='true' icon='w_hunting_rifle'      keyword='HuntingRifle' /> 
+	<tag hidetag='true' icon='w_rail'               keyword='Railway' />
+	<tag hidetag='true' icon='w_gauss'              keyword='GaussRifle' />
+	<tag hidetag='true' icon='w_laser_rifle'        keyword='LaserRifle' />
+	<tag hidetag='true' icon='w_plasma_rifle'       keyword='PlasmaRifle' />
+	<tag hidetag='true' icon='w_radium_rifle'       keyword='RadiumRifle' />
+	<tag hidetag='true' icon='w_syringer'           keyword='HarpoonGun' />
+ 
+	<tag hidetag='true' icon='w_shotgun'            keyword='Shotgun' />
+	<tag hidetag='true' icon='w_submachine_gun'     keyword='SMB' />
+	<tag hidetag='true' icon='w_combat_rifle'       keyword='CombatRifle' />
+	<tag hidetag='true' icon='w_ak'                 keyword='AssaultRifle' />
+
+	
+	<tag hidetag='true' icon='w_gamma'              keyword='Gamma' />
+ 
+ 
+	<tag hidetag='true' icon='w_minigun'            keyword='Minigun' />
+	<tag hidetag='true' icon='w_gatl'               keyword='Gatling' />
+ 
+	<tag hidetag='true' icon='w_junk'               keyword='JunkJet' />
+	<tag hidetag='true' icon='w_cannon'             keyword='Cannon' />
+	<tag hidetag='true' icon='w_flame'              keyword='Flamethrower' />
+	<tag hidetag='true' icon='w_rocket_launcher'    keyword='Rocketlauncher' />
+	<tag hidetag='true' icon='w_fat_man'            keyword='Fatman' />
+	
+	<tag hidetag='true' icon='weap'                 keyword='Ranged' />
+
+	
+	<!-- Clothes -->
+	<tag hidetag='true' icon='casual'     keyword='Clothes' />
+
+	<tag hidetag='true' icon='hat'        keyword='Hat' />
+	<tag hidetag='true' icon='goog'       keyword='Eyes' />
+	<tag hidetag='true' icon='mask'       keyword='Mask' />
+	<tag hidetag='true' icon='n_gasmask'  keyword='GasMask' />
+	<tag hidetag='true' icon='neck'       keyword='Neck' />
+	<tag hidetag='true' icon='ring'       keyword='Ring' />
+	<tag hidetag='true' icon='la_gloves'  keyword='Gloves' />
+	<tag hidetag='true' icon='la_outwear' keyword='Underwear' />
+	<tag hidetag='true' icon='n_attire'   keyword='FullOutfit' /> 
+	<tag hidetag='true' icon='n_dress'    keyword='Dress' />
+	
+	<!-- Armor -->  
+	<tag hidetag='true' icon='fullhelm'   keyword='FullHelm' />
+	<tag hidetag='true' icon='helm'       keyword='Helm' />
+	<tag hidetag='true' icon='smut'       keyword='Armor' />
+	<tag hidetag='true' icon='smut'       keyword='SuperMutant' />			<!-- Changed/Custom -->
+	<tag hidetag='true' icon='la_holster' keyword='Holster' />
+
+	<tag hidetag='true' icon='armdef'       keyword='FullArmor' />			<!-- Changed/Custom -->
+	<!--<tag hidetag='true' icon='smut'       keyword='FullArmor' />-->		<!-- Changed/Custom -->
+	<tag hidetag='true' icon='vault'        keyword='VaultSuit' />			<!-- Set Option -->
+	<!--<tag hidetag='true' icon='la_outwear'   keyword='VaultSuit' />-->	<!-- Set Option -->
+	
+
+ 	<tag hidetag='true' icon='anarchy'      keyword='SetDread' />
+	<tag hidetag='true' icon='raider'		keyword='SetRaider' />			
+	<tag hidetag='true' icon='abc_leather'  keyword='SetLeather' />
+	<tag hidetag='true' icon='abc_metal'    keyword='SetMetal' />
+	<tag hidetag='true' icon='abc_marine'   keyword='SetMarine' />
+	<tag hidetag='true' icon='abc_dc_guard' keyword='SetDCGuard' />
+	<tag hidetag='true' icon='synth'        keyword='SetSynth' />
+	<!-- <tag hidetag='true' icon='soldier'     keyword='SetCombat' />-->	<!-- Changed/Custom -->
+	<tag hidetag='true' icon='star2'		keyword='SetCombat' />
+	<tag hidetag='true' icon='arm'			keyword='Underarmor' />	
+	<!--<tag hidetag='true' icon='arm'			keyword='SetCustom' />-->	<!-- Changed/Custom -->
+	<tag hidetag='true' icon='shield2'		keyword='SetCustom' />			<!-- Changed/Custom -->
+ 
+	<tag hidetag='true' icon='pa_head'      keyword='PowerArmor' />
+
+	<!-- Armor by body part -->
+	<tag hidetag='true' icon='arml'       keyword='ArmL' />
+	<tag hidetag='true' icon='armr'       keyword='ArmR' />
+	<tag hidetag='true' icon='chest'      keyword='Torso' />
+	<tag hidetag='true' icon='legl'       keyword='LegL' />
+	<tag hidetag='true' icon='legr'       keyword='LegR' />
+
+	
+	<!-- Power armor by body parts  --> 
+	<tag hidetag='true' icon='pa_head'   keyword='PowerHelm' />
+	<tag hidetag='true' icon='pa_arml'   keyword='PowerArmL' />
+	<tag hidetag='true' icon='pa_armr'   keyword='PowerArmR' />
+	<tag hidetag='true' icon='pa_chest'  keyword='PowerTorso' />
+	<tag hidetag='true' icon='pa_legl'   keyword='PowerLegL' />
+	<tag hidetag='true' icon='pa_legr'   keyword='PowerLegR' />
+ 
+	<!-- Power armor by PA type  --> 
+	<tag hidetag='true' icon='abc_pa_raider'   keyword='PA_Raider' />
+	<tag hidetag='true' icon='abc_pa_t45'      keyword='T45' />
+	<tag hidetag='true' icon='abc_pa_t51'      keyword='T51' />
+	<tag hidetag='true' icon='abc_pa_t60'      keyword='T60' />
+	<tag hidetag='true' icon='abc_pa_x01'      keyword='X01' /> 
+	<tag hidetag='true' icon='pa_head'         keyword='PowerArmor' />
+
+	<tag hidetag='true' icon='dog'             keyword='NonHuman' />
+	
+	<!-- AID -->
+	<tag hidetag='true' icon='food'       keyword='Food' />
+	<tag hidetag='true' icon='rfood'      keyword='RadFood' />
+	<tag hidetag='true' icon='bottle'     keyword='Drink' />
+	<tag hidetag='true' icon='alc'        keyword='Liquor' />
+	<tag hidetag='true' icon='bottle'     keyword='Beer' />
+	<tag hidetag='true' icon='redcross'   keyword='Stimpak' />
+	<tag hidetag='true' icon='med'        keyword='Aid' />
+	<tag hidetag='true' icon='chem'       keyword='Chem' />
+	<tag hidetag='true' icon='syringer'   keyword='Syringer' />
+	<tag hidetag='true' icon='camp2'      keyword='Camping' />
+	<tag hidetag='true' icon='dev'        keyword='StealthBoy' />
+ 
+	<tag hidetag='true' icon='la_pipboy'  keyword='Pipboy' />
+	<tag hidetag='true' icon='lock'       keyword='Lockpick' />
+	<tag hidetag='true' icon='bhead'      keyword='PerkBobblehead' />
+	<tag hidetag='true' icon='mag'        keyword='SkillMag' />
+	<tag hidetag='true' icon='mag'        keyword='PerkMag' />
+	<tag hidetag='true' icon='star'       keyword='Collectible' />
+	<tag hidetag='true' icon='diam'       keyword='Valuable' />
+	<tag hidetag='true' icon='bottle'     keyword='Bottle' />
+	<tag hidetag='true' icon='note'       keyword='NotePubOcc' subicon='book' />
+	<tag hidetag='true' icon='note'       keyword='Note' />
+	<tag hidetag='true' icon='note'       keyword='NoteMisc' subicon='sack' />
+	<tag hidetag='true' icon='password'   keyword='Password' />
+	<tag hidetag='true' icon='holo'       keyword='Holotape' />
+	<tag hidetag='true' icon='holo'       keyword='HolotapeT' subicon='password' />
+	<tag hidetag='true' icon='holo'       keyword='HolotapeV' subicon='radio' />
+	<tag hidetag='true' icon='holo'       keyword='HolotapeP' subicon='hack' />
+	<tag hidetag='true' icon='game'       keyword='Game' />
+	<tag hidetag='true' icon='key'        keyword='Key' />
+	<tag hidetag='true' icon='keycard'    keyword='Passcard' />
+	<tag hidetag='true' icon='sack'       keyword='Other' />
+	<tag hidetag='true' icon='vault'      keyword='OtherALCH' />
+	<tag hidetag='true' icon='gold'       keyword='Resource' /> 
+	<tag hidetag='true' icon='trash'      keyword='Scrap' /> 
+	<tag hidetag='true' icon='n_trash'    keyword='Trash' />
+	<tag hidetag='true' icon='caps'       keyword='Currency' />
+	<tag hidetag='true' icon='mods'       keyword='Mod' />
+
+	<!-- Ammo -->
+	<tag hidetag='true' icon='lightning2' keyword='Energy'/> <!-- Added - Also Weapon -->
+	<tag hidetag='true' icon='bandolier'  keyword='AmmoCaliber' /> 
+	<tag hidetag='true' icon='n_atomic'   keyword='AmmoEnergy' /> 
+	<tag hidetag='true' icon='ammo'       keyword='Ammo' /> 
+	<tag hidetag='true' icon='core'       keyword='FusionCore' /> 
+	<tag hidetag='true' icon='gren'       keyword='Grenade' />
+	<tag hidetag='true' icon='mine'       keyword='Mine' />
+	 
+	<!-- Extra Tags -->
+	<tag hidetag='true' icon='vault'      keyword='Settings' />
+	<tag hidetag='true' icon='tool'       keyword='Device' />
+	
+	<!-- Quests Tags - DEF_UI Iconlibs Rescaled and Fixed -->
+	<tag hidetag='true' icon='bos'        keyword='Brotherhood' />
+	<tag hidetag='true' icon='minutemen'  keyword='Minutemen' />
+	<tag hidetag='true' icon='minutemen'  keyword='Minutemens' />
+	<tag hidetag='true' icon='institute'  keyword='Institute' />
+	<tag hidetag='true' icon='lantern'    keyword='Railroad' />
+	<tag hidetag='true' icon='vault'      keyword='Vault118' />
+	<tag hidetag='true' icon='vault'      keyword='Vault75' />
+	<tag hidetag='true' icon='vault'      keyword='Vault81' />
+	<tag hidetag='true' icon='vault'      keyword='Vault88' />
+	<tag hidetag='true' icon='vault'      keyword='VaultTec' />
+	<tag hidetag='true' icon='wave'       keyword='Companion' />
+	<tag hidetag='true' icon='note'       keyword='Quest' />
+	<tag hidetag='true' icon='head'       keyword='MainQuest' />
+	<tag hidetag='true' icon='diamcity'   keyword='DiamondCity' />
+	<tag hidetag='true' icon='city4'      keyword='Goodneighbor' />
+	<tag hidetag='true' icon='n_flask'    keyword='Cabot' />
+	<tag hidetag='true' icon='abc_robot'  keyword='Robot' />			 <!-- Also DLCRobot armor by class -->
+	<tag hidetag='true' icon='mountain2'  keyword='FarHarbor' />
+	<tag hidetag='true' icon='synth'      keyword='Acadia' />
+	<tag hidetag='true' icon='radiation2' keyword='Atom' />
+	<tag hidetag='true' icon='boat2'      keyword='Harbor' />
+	<tag hidetag='true' icon='nuka2'      keyword='NukaWorld' />
+	<tag hidetag='true' icon='anarchy'    keyword='Raid' />	
+	
+	<!-- Quests Tags: Mix -->
+	<tag hidetag='true' icon='synth'		keyword='Acadia' />
+	<tag hidetag='true' icon='radiation2' 	keyword='Atom' />
+	<tag hidetag='true' icon='abc_robot'	keyword='Automatron' />
+	<tag hidetag='true' icon='bos'			keyword='Brotherhood' />
+	<tag hidetag='true' icon='wave' 		keyword='Companion' />
+	<tag hidetag='true' icon='diamcity'		keyword='Diamond' />
+	<tag hidetag='true' icon='mountain2'	keyword='FarHarbor' />
+	<tag hidetag='true' icon='boat2'		keyword='Harbor' />
+	<tag hidetag='true' icon='institute'	keyword='Institute' />
+	<tag hidetag='true' icon='head'			keyword='MainQuest' />
+	<tag hidetag='true' icon='minutemen'	keyword='Minutemen' />
+	<tag hidetag='true' icon='minutemen'	keyword='Minutemens' />
+	<tag hidetag='true' icon='nuka2'		keyword='NukaWorld' />
+	<tag hidetag='true' icon='anarchy'		keyword='Raid' />
+	<tag hidetag='true' icon='lantern'		keyword='Railroad' />
+	<tag hidetag='true' icon='vault'		keyword='Vault118' />
+	<tag hidetag='true' icon='vault'		keyword='Vault75' />
+	<tag hidetag='true' icon='vault'		keyword='Vault81' />
+	<tag hidetag='true' icon='vault'		keyword='Vault88' />
+	<tag hidetag='true' icon='n_flask'		keyword='Cabot' />
+	<tag hidetag='true' icon='city4'		keyword='Goodneighbor' />
+	<tag hidetag='true' icon='note'			keyword='Affair' />
+	<tag hidetag='true' icon='abc_robot'	keyword='Robot' />
+	<tag hidetag='true' icon='bos'			keyword='BoS' />
+	<tag hidetag='true' icon='wave'			keyword='Buddy' />
+	<tag hidetag='true' icon='diamcity'		keyword='DC' />
+	<tag hidetag='true' icon='diamcity'		keyword='DiamondCity' />
+	<tag hidetag='true' icon='mountain2'	keyword='Far' />
+	<tag hidetag='true' icon='institute'	keyword='Ins' />
+	<tag hidetag='true' icon='institute'	keyword='Institute' />
+	<tag hidetag='true' icon='head'			keyword='Main' />
+	<tag hidetag='true' icon='minutemen'	keyword='Min' />
+	<tag hidetag='true' icon='nuka2'		keyword='NukaW' />
+	<tag hidetag='true' icon='lantern'		keyword='RR' />
+	<tag hidetag='true' icon='vault'		keyword='V118' />
+	<tag hidetag='true' icon='vault'		keyword='V75' />
+	<tag hidetag='true' icon='vault'		keyword='V81' />
+	<tag hidetag='true' icon='vault'		keyword='V88' />
+	<tag hidetag='true' icon='city4'		keyword='GN' />
+	
+	
+<!-- Perks -->
+	<tag icon='book' keyword='Skill Mag' hidetag='true'/>		
+	<tag icon='bhead' keyword='Bobblehead' hidetag='true'/>
+	<tag icon='bhead' keyword='Perk: Bobblehead' hidetag='true'/>
+	<tag icon='mag' keyword='Magazine' hidetag='true'/>
+	<tag icon='n_watch' keyword='Temp' hidetag='true'/>
+<!-- Quests and Radio -->	
+	<tag icon='synth' keyword='Acadia' hidetag='true'/>				<!-- Quests Tags - small & large -->
+	<tag icon='radiation2' keyword='Atom' hidetag='true'/>
+	<tag icon='abc_robot' keyword='Automatron' hidetag='true'/>
+	<tag icon='abc_robot' keyword='Robot' hidetag='true'/>
+	<tag icon='bos' keyword='Brotherhood' hidetag='true'/>
+	<tag icon='bos' keyword='BoS' hidetag='true'/>
+	<tag icon='wave' keyword='Buddy' hidetag='true'/>
+	<tag icon='diamcity' keyword='Diamond' hidetag='true'/>
+	<tag icon='diamcity' keyword='DC' hidetag='true'/>
+	<tag icon='mountain2' keyword='FarHarbor' hidetag='true'/>
+	<tag icon='mountain2' keyword='Far' hidetag='true'/>
+	<tag icon='boat2' keyword='Harbor' hidetag='true'/>
+	<tag icon='institute' keyword='Institute' hidetag='true'/>
+	<tag icon='institute' keyword='Ins' hidetag='true'/>
+	<tag icon='head' keyword='MainQuest' hidetag='true'/>
+	<tag icon='head' keyword='Main' hidetag='true'/>
+	<tag icon='minutemen' keyword='Minutemen' hidetag='true'/>
+	<tag icon='minutemen' keyword='Min' hidetag='true'/>
+	<tag icon='nuka2' keyword='NukaWorld' hidetag='true'/>
+	<tag icon='nuka2' keyword='NukaW' hidetag='true'/>
+	<tag icon='anarchy' keyword='Raid' hidetag='true'/>
+	<tag icon='lantern' keyword='Railroad' hidetag='true'/>
+	<tag icon='lantern' keyword='RR' hidetag='true'/>
+	<tag icon='vault' keyword='Vault118' hidetag='true'/>
+	<tag icon='vault' keyword='V118' hidetag='true'/>
+	<tag icon='vault' keyword='Vault75' hidetag='true'/>
+	<tag icon='vault' keyword='V75' hidetag='true'/>
+	<tag icon='vault' keyword='Vault81' hidetag='true'/>
+	<tag icon='vault' keyword='V81' hidetag='true'/>
+	<tag icon='vault' keyword='Vault88' hidetag='true'/>
+	<tag icon='vault' keyword='V88' hidetag='true'/>
+	<tag icon='n_flask' keyword='Cabot' hidetag='true'/>
+	<tag icon='city4' keyword='Goodneighbor' hidetag='true'/>
+	<tag icon='city4' keyword='GN' hidetag='true'/>
+	<tag icon='note' keyword='Affair' hidetag='true'/>
+	<tag icon='n_atmoic' keyword='CoA' hidetag='true'/>					<!-- South of the Sea [sp] -->
+	<tag icon='radio' keyword='Camera' hidetag='true'/>					<!-- Outcasts and Remnants -->
+	<tag icon='radio' keyword='Radio' hidetag='true'/>	   				<!-- Radio station -->
+	<tag icon='radiotower' keyword='Radio Beacon' hidetag='true'/>	    <!-- Radio station: Beacon -->	
+	<tag icon='radiotower' keyword='Broadcast' hidetag='true'/>
+	<tag icon='bos' keyword='Radio BoS' hidetag='true'/>			    <!-- Radio station: BoS -->
+	<tag icon='diamcity' keyword='Radio DCR' hidetag='true'/>	  		<!-- Radio station: Diamond City Radio -->	
+	<tag icon='wifi' keyword='Radio Device' hidetag='true'/>	   		<!-- Short-range radio devices like intercoms etc -->	
+	<tag icon='gohere' keyword='Radio Distress' hidetag='true'/>	    <!-- Radio station: Distress call -->	
+	<tag icon='radiotower' keyword='Radio GNR' hidetag='true'/>	  		<!-- Radio station: GNR -->	
+	<tag icon='radiation2' keyword='Radio Govt' hidetag='true'/>	    <!-- Radio station: Conelrad and government radio -->
+	<tag icon='minutemen' keyword='Radio MM' hidetag='true'/>	  		<!-- Radio station: Minutemen -->	
+	<tag icon='nuka' keyword='Radio Nuka' hidetag='true'/>	  			<!-- Radio station: Nuka-World Family Radio -->
+	<tag icon='anarchy' keyword='Radio Raider' hidetag='true'/>	  		<!-- Radio station: Raider Radio -->	
+	<tag icon='abc_robot' keyword='Radio Robot' hidetag='true'/>	    <!-- Radio station: Existence 2.0 -->	
+	<tag icon='redrocket' keyword='Radio RR' hidetag='true'/>	    	<!-- Radio station: Red Rocket -->		
+	<tag icon='camp' keyword='Radio Settlement' hidetag='true'/>	    <!-- Radio station: Settlement Beacon -->	
+	<tag icon='moon' keyword='Radio Silence' hidetag='true'/>	  		<!-- Radio station: Nuka-World Family Radio -->
+	<tag icon='book' keyword='Radio Theatre' hidetag='true'/>	   		<!-- Radio station: teleplays and theatre -->
+	<tag icon='city5' keyword='Radio TT' hidetag='true'/>	  			<!-- Radio station: Vault -->	
+	<tag icon='vault' keyword='Radio Vault' hidetag='true'/>	  		<!-- Radio station: Trinity Tower -->	
+	<tag icon='bos' keyword='Faction: BOS' hidetag='true'/>	
+	<tag icon='lantern' keyword='Faction: Railroad' hidetag='true'/>	
+	<tag icon='institute' keyword='Faction: Institute' hidetag='true'/>	
+<!-- Various SimSettlements addons -->
+	<tag icon='n_flask' keyword='SimChem' hidetag='true'/>
+	<tag icon='factory' keyword='SimFactory' hidetag='true'/>
+	<tag icon='farm' keyword='SimFarm' hidetag='true'/>
+	<tag icon='n_leaf' keyword='SimGarden' hidetag='true'/>
+	<tag icon='n_leaf' keyword='WWG' hidetag='true'/>					<!-- SS2 Walled Gardens and More -->
+	<tag icon='star2' keyword='SimGuard' hidetag='true'/>
+	<tag icon='redcross2' keyword='SimMedic' hidetag='true'/>
+	<tag icon='food2' keyword='SimRestaurant' hidetag='true'/>
+	<tag icon='junkyard' keyword='SimScrap' hidetag='true'/>
+	<tag icon='city8' keyword='SimShack' hidetag='true'/>
+	<tag icon='city8' keyword='RH' hidetag='true'/>						<!-- SS2 Ruined Homes and Gardens 2 -->
+	<tag icon='mountain' keyword='OverG' hidetag='true'/>				<!-- SS2 Superstructures -->
+	<tag icon='tools2' keyword='VFX' hidetag='true'/>					<!-- SS2 Superstructures -->
+	<tag icon='hack' keyword='PRA' hidetag='true'/>						<!-- SS2 Pra's Random Addon 2-->	
+	<tag icon='skull2' keyword='SimShop' hidetag='true'/>
+	<tag icon='module' keyword='SimTech' hidetag='true'/>
+	<tag icon='water3' keyword='SimWater' hidetag='true'/>
+	<tag icon='camp' keyword='SS' hidetag='true'/>						<!-- Sim Settlements 3.1.5 -->
+	<tag icon='camp' keyword='SS2' hidetag='true'/>						<!-- Sim Settlements 2 -->	
+	<tag icon='wave' keyword='ILS' hidetag='true'/>						<!-- IDEK's Logistics Station -->
+	<tag icon='wave' keyword='ILS2' hidetag='true'/>					<!-- SS2 IDEK's Logistics Station 2-->
+	<tag icon='abc_robot' keyword='IC' hidetag='true'/>					<!-- mytigio - Industrial City -->	
+	<tag icon='anarchy' keyword='MrJC' hidetag='true'/>					<!-- MrJoseCuervo - Bad Neighbors -->	
+	<tag icon='city5' keyword='REShack' hidetag='true'/>				<!-- Brian841 B84s - Themed Residentials -->
+	<tag icon='junkyard' keyword='JT2' hidetag='true'/>					<!-- SS2 Junk Town Two -->
+	<tag icon='junkyard' keyword='JTF' hidetag='true'/>					<!-- SS2 Junk Town Fences -->	
+	<tag icon='warehouse2' keyword='WV' hidetag='true'/>				<!-- SS2 Myrmarachne and Tinuvia - Wasteland Venturers -->	
+	<tag icon='warehouse2' keyword='WV1' hidetag='true'/>				<!-- SS2 Myrmarachne and Tinuvia - Wasteland Venturers -->
+	<tag icon='city9' keyword='Hall' hidetag='true'/>					<!-- Sebbo86 - Another Brick in the Wall -->	
+	<tag icon='book' keyword='Study' hidetag='true'/>					<!-- Sebbo86 - Another Brick in the Wall -->	
+	<tag icon='wave' keyword='Leader' hidetag='true'/>					<!-- Sim Settlements 3.1.2 Leader Cards -->
+	<tag icon='head4' keyword='Ghoul' hidetag='true'/>					<!-- Sim Settlements 3.1.2 Ghoul Lure -->
+	<tag icon='pa_head' keyword='PA Frame' hidetag='true'/>				<!-- Sim Settlements 3.1.2 Power Armor Frame -->
+	<tag icon='golf' keyword='Flag' hidetag='true'/>					<!-- Sim Settlements 3.1.2 Flag -->
+	<tag icon='camper' keyword='REStrailer' hidetag='true'/>			<!--Trailer Park Dream -->
+	<tag icon='camp2' keyword='RESshack' hidetag='true'/>				<!--Shack Homes -->
+	<tag icon='warehouse' keyword='REStory1' hidetag='true'/>			<!--Single Story Home -->
+	<tag icon='warehouse2' keyword='REStory2' hidetag='true'/>			<!--Two Story Home -->
+	<tag icon='city' keyword='REStory3' hidetag='true'/>				<!--Three Story Home -->
+	<tag icon='tree' keyword='REStree' hidetag='true'/>					<!--Tree/rustic home -->
+	<tag icon='diam' keyword='RESvip' hidetag='true'/>
+	<tag icon='boat2' keyword='RESBoat' hidetag='true'/>
+	<tag icon='city6' keyword='RESTower' hidetag='true'/>				<!--Taller than 3floor Buildings -->
+	<tag icon='farm' keyword='AGfarm' hidetag='true'/>
+	<tag icon='swamp' keyword='AGfarmaqua' hidetag='true'/>
+	<tag icon='n_steak' keyword='AGfarmanimal' hidetag='true'/>
+	<tag icon='dock' keyword='AGreenhouse' hidetag='true'/>				<!--Greenhouse -->
+	<tag icon='alc' keyword='CO1bar' hidetag='true'/>
+	<tag icon='food2' keyword='CO1food' hidetag='true'/>
+	<tag icon='redcross2' keyword='CO1doc' hidetag='true'/>
+	<tag icon='weap' keyword='CO2weapons' hidetag='true'/>
+	<tag icon='casual' keyword='CO2clothes' hidetag='true'/>
+	<tag icon='caps' keyword='CO2general' hidetag='true'/>
+	<tag icon='tool' keyword='CO3repair' hidetag='true'/>
+	<tag icon='abc_trapper' keyword='INHunter' hidetag='true'/>			<!--Hunter Gather -->
+	<tag icon='lightning' keyword='INlight' hidetag='true'/>			<!--Electrical -->
+	<tag icon='water' keyword='INwater' hidetag='true'/>				<!--Water Production -->
+	<tag icon='factory' keyword='INrevolution' hidetag='true'/>			<!--IndustrialRevolution -->
+	<tag icon='tools2' keyword='IN2mine' hidetag='true'/>				<!--Mine,Mill -->
+	<tag icon='wood' keyword='IN2wood' hidetag='true'/>					<!--LumberYard -->
+	<tag icon='android' keyword='IN2robot' hidetag='true'/>				<!--Robotics components -->
+	<tag icon='gold' keyword='IN2scrap' hidetag='true'/>
+	<tag icon='junkyard' keyword='IN2junk' hidetag='true'/>				<!--JunkYard -->
+	<tag icon='ammo' keyword='IN2ammo' hidetag='true'/>					<!--ammo plant -->
+	<tag icon='mag' keyword='IN3news' hidetag='true'/>					<!--Newspaper -->
+	<tag icon='nuka' keyword='IN3drinks' hidetag='true'/>				<!--Brewery -->
+	<tag icon='wave' keyword='IN3dispatch' hidetag='true'/>				<!--Scav Team Dispatcher from Industria City -->
+	<tag icon='shield2' keyword='MAdef' hidetag='true'/>
+	<tag icon='shield3' keyword='MAdef2' hidetag='true'/>
+	<tag icon='bos' keyword='MAbos' hidetag='true'/>
+	<tag icon='institute' keyword='MAinstitute' hidetag='true'/>
+	<tag icon='minutemen' keyword='MAminutemen' hidetag='true'/>
+	<tag icon='lantern' keyword='MArairoad' hidetag='true'/>
+	<tag icon='smile' keyword='REChappy' hidetag='true'/>
+	<tag icon='redcross' keyword='REligion' hidetag='true'/>
+	
+	
+	
+	<!-- 
+ 	<tag hidetag='true' icon='b_companion'  keyword='Companion' />
+	-->
+	
+	<!-- Quests Tags - VIS-g ! 
+	<tag hidetag='true' keyword="Brotherhood" icon="b_ac_bos"  />
+	<tag hidetag='true' keyword="Minutemens" icon="b_ac_minutemen"  />
+	<tag hidetag='true' keyword="Minutemen" icon="b_ac_minutemen"  />
+	<tag hidetag='true' keyword="Institute" icon="b_ac_institute"  />
+	<tag hidetag='true' keyword="Railroad" icon="b_lantern"  />
+	<tag hidetag='true' keyword="Vault118" icon="b_vault-tec"  />
+	<tag hidetag='true' keyword="Vault75" icon="b_vault-tec"  />
+	<tag hidetag='true' keyword="Vault81" icon="b_vault-tec"  />
+	<tag hidetag='true' keyword="Vault88" icon="b_vault-tec"  />
+	<tag hidetag='true' keyword="VaultTec" icon="b_vault-tec"  />
+	<tag hidetag='true' keyword="Companion" icon="b_companion"  />
+	<tag hidetag='true' keyword="Quest" icon="b_notepad"  />
+	<tag hidetag='true' keyword="MainQuest" icon="b_head"  />
+	<tag hidetag='true' keyword="DiamondCity" icon="b_diamond_city"  />
+	<tag hidetag='true' keyword="Goodneighbor" icon="b_notepad"  />
+	<tag hidetag='true' keyword="Cabot" icon="b_a_dapper"  />
+	<tag hidetag='true' keyword="Robot" icon="b_ac_robot_1"  />
+	<tag hidetag='true' keyword="FarHarbor" icon="b_mountain"  />
+	<tag hidetag='true' keyword="Acadia" icon="b_a_legs"  />
+	<tag hidetag='true' keyword="Atom" icon="b_ac_CoA"  />
+	<tag hidetag='true' keyword="Harbor" icon="b_boat_2"  />
+	<tag hidetag='true' keyword="NukaWorld" icon="b_aid_nuka_2"  />
+	<tag hidetag='true' keyword="Raid" icon="b_ac_anarchy"  />
+	-->
+ 
+	<!-- Quests Tags - VIS
+	<tag hidetag='true' keyword="Brotherhood" icon="bos"  />
+	<tag hidetag='true' keyword="Institute" icon="institute"  />
+	<tag hidetag='true' keyword="Minutemens" icon="minutemen"  />
+	<tag hidetag='true' keyword="Minutemen" icon="minutemen"  />
+	<tag hidetag='true' keyword="Railroad" icon="lantern"  />
+	<tag hidetag='true' keyword="Vault118" icon="vault"  />
+	<tag hidetag='true' keyword="Vault75" icon="vault"  />
+	<tag hidetag='true' keyword="Vault81" icon="vault"  />
+	<tag hidetag='true' keyword="Vault88" icon="vault"  />
+	<tag hidetag='true' keyword="VaultTec" icon="vault"  />
+	<tag hidetag='true' keyword="Companion" icon="wave"  />
+	<tag hidetag='true' keyword="Quest" icon="note"  />
+	<tag hidetag='true' keyword="MainQuest" icon="head"  />
+	<tag hidetag='true' keyword="DiamondCity" icon="diamcity"  />
+	<tag hidetag='true' keyword="Goodneighbor" icon="city4"  />
+	<tag hidetag='true' keyword="Cabot" icon="n_flask"  />
+	<tag hidetag='true' keyword="Robot" icon="abc_robot"  />
+	<tag hidetag='true' keyword="FarHarbor" icon="mountain2"  />
+	<tag hidetag='true' keyword="Acadia" icon="synth"  />
+	<tag hidetag='true' keyword="Atom" icon="radiation2"  />
+	<tag hidetag='true' keyword="Harbor" icon="boat2"  />
+	<tag hidetag='true' keyword="NukaWorld" icon="nuka2"  />
+	<tag hidetag='true' keyword="Raid" icon="anarchy"  /> -->
+ 
+	
+</tags>

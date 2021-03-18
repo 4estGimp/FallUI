@@ -1,0 +1,178 @@
+<!--
+filters 
+	4294967295	- all
+	1			- favorites
+	2			- weapons
+	4			- apparel
+	8			- aid
+	512			- all misc
+	1024		- junk
+	2048		- modifications
+	4096		- ammo
+	8192		- all holotapes
+	128			- all notes and magazines
+	
+	Or as keywords: 
+	Available Tabs: ALL, WEAPONS, APPAREL, AID, MISC, JUNK, MODS, AMMO
+	You can define more filters at once, e.g.: MISC+JUNK+MODS
+	
+	to show in one tabs weapons and apparel use SUM of flags 2 + 4 = 6
+			<filter>6</filter>
+	
+	to show tab with only legendary items and favorites items use 
+			<filterflag>1</filterflag>
+
+	here is additional icons (for tabs only not for items)
+			pack star mods weap
+			
+	all <tab></tab> tags must contain <filter> <name> and <icon> tags
+	
+	<inctags> use to select ONLY these tagged items from provided <filter>
+	<distags> use to select ALL items from provided <filter> EXCEPT these tagged items
+	
+	u can't use <inctags> and <distags> at the same time
+	
+	on the bottom example for vanilla tabs
+-->
+
+<settings>
+	<author>Neanka, m8r98a4f2</author>
+	<desc>My tabs</desc>
+	<tabs>
+		<tab autoSubTabs="false">
+			<icon>pack</icon>
+			<name>$INVENTORY</name>
+			<filter>ALL</filter>
+		</tab>
+		
+		<tab autoSubTabs="false">
+			<icon>star</icon>
+			<name>$InventoryCategoryFav</name>
+			<filter>ALL</filter>
+			<filterflag>1</filterflag>
+		</tab>
+		
+		<tab autoSubTabs="false">
+			<icon>weap</icon>
+			<name>$InventoryCategoryWeapons</name>
+			<filter>WEAPONS</filter>
+			<distags>Ammo</distags>
+			<tab><icon>w_disarm</icon> <inctags>/\[(Melee|Melee1H|Melee2H|RevDword|Swatter|BaseballBat|CombatKnife|Shish|Ripper|SuperSledge|Unarmed)\]/</inctags></tab>
+			<!--<tab><icon>w_combat_rifle</icon>   <inctags>/\[(Pistol|10mm|TheDeliverer|44P|InstitutePistol|PipeRevolver|LaserPistol|PlasmaPistol|AlienGun|Cryo|Syringer|PipeRifle|Leveraction|Rifle|HuntingRifle|Railway|GaussRifle|LaserRifle|PlasmaRifle|Shotgun|SMB|CombatRifle|AssaultRifle|Gamma|Minigun|Gatling|Flamethrower|Rocketlauncher|Fatman|Ranged)\]/</inctags></tab>-->
+			<tab><icon>weap</icon>   <inctags>/\[(Pistol|10mm|TheDeliverer|44P|InstitutePistol|PipeRevolver|LaserPistol|PlasmaPistol|AlienGun)\]/</inctags></tab>-->
+			<tab><icon>w_combat_rifle</icon>   <inctags>/\[(Cryo|Syringer|PipeRifle|Leveraction|Rifle|HuntingRifle|Railway|GaussRifle|Musket|LaserRifle|PlasmaRifle|Shotgun|SMB|CombatRifle|AssaultRifle|Gamma|Ranged)\]/</inctags></tab>-->
+			<tab><icon>w_rocket_launcher</icon>   <inctags>/\[(Minigun|Gatling|Flamethrower|JunkJet|Cannon|Rocketlauncher|Fatman)\]/</inctags></tab>-->
+			<tab><icon>gren</icon><inctags>/\[(Grenade|Mine|Ammo)\]/</inctags></tab>
+		</tab>
+		
+		<tab autoSubTabs="false">
+			<icon>smut</icon>
+			<name>$InventoryCategoryApparel</name>
+			<filter>APPAREL</filter>
+			<!--<distags>Device</distags>
+			<distags>Settings</distags>-->
+			<tab><icon>casual</icon> <inctags>/\[(VaultSuit|Clothes|Hat|Eyes|Mask|GasMask|Neck|Ring|Gloves|Underwear|FullOutfit|Pack|PackFull|PackLow|Dress)\]/</inctags></tab>
+			<tab><icon>armdef</icon> <inctags>/\[(Armor|Helm|FullHelm|FullArmor|Underarmor|Biosuit|VaultSuit|Set[^\]]+|Holster|ArmL|ArmR|LegL|LegR|Torso)\]/</inctags></tab>
+			<tab><icon>pa_head</icon><inctags>/\[(Power[aA]rmor|PA_Raider|T45|T51|T60|X01|PowerHelm|PowerArmL|PowerArmR|PowerTorso|PowerLegL|PowerLegR)\]/</inctags></tab>
+			<tab><icon>dog</icon>    <inctags>/\[(NonHuman|SuperMutant|Unknown)\]/</inctags></tab>
+		</tab>
+
+		<tab autoSubTabs="true">
+			<icon>chem</icon>
+			<name>$InventoryCategoryAid</name>
+			<filter>AID</filter>
+			<!--<distags>Device</distags>
+			<distags>Settings</distags>-->
+			<distags>Food</distags>
+			<distags>RadFood</distags>
+			<distags>Drink</distags>
+			<distags>Liquor</distags>
+			<distags>Beer</distags>
+		</tab>
+		
+		<tab autoSubTabs="true">
+			<icon>food2</icon>
+			<name>$FOOD</name>
+			<filter>AID</filter>
+			<inctags>Food</inctags>
+			<inctags>RadFood</inctags>
+			<inctags>Drink</inctags>
+			<inctags>Liquor</inctags>
+			<inctags>Beer</inctags>
+		</tab>
+		
+		<tab autoSubTabs="true">
+			<icon>sack</icon>
+			<name>$InventoryCategoryMisc</name>
+			<filter>128+MISC+JUNK+8192</filter>
+			<distags>Settings</distags>
+			<distags>Device</distags><!---->
+			<distags>Ammo</distags>
+			<distags>Note</distags> 
+			<distags>NoteMisc</distags> 
+			<distags>NotePubOcc</distags> 
+			<distags>Password</distags> 
+			<distags>Passcard</distags> 
+			<distags>Game</distags> 
+			<distags>Holotape</distags>
+			<distags>HolotapeP</distags>
+			<distags>HolotapeT</distags>
+			<distags>HolotapeV</distags>
+			<distags>Resource</distags>
+			<distags>Scrap</distags>
+		</tab>
+	
+		<tab autoSubTabs="true">
+			<icon>trash</icon>
+			<name>$InventoryCategoryJunk</name>
+			<filter>JUNK</filter>
+			<distags>Bottle</distags>
+			<distags>Currency</distags>
+		</tab>
+		
+		
+		<!--<tab autoSubTabs="true">
+			<icon>hack</icon>
+			<name>$InventoryCategoryNote</name>
+			<filter>ALL</filter>
+			<inctags>Settings</inctags>
+			<inctags>Device</inctags>
+		</tab>-->
+		
+		<tab autoSubTabs="true">
+			<icon>holo</icon>
+			<name>$InventoryCategoryHolo</name>
+			<filter>128+MISC+8192</filter>
+			<distags>PerkMag</distags>
+			<!--<distags>Settings</distags>
+			<distags>Device</distags>-->
+			<distags>Mod</distags>
+			<distags>Camping</distags>
+			<distags>PerkBobblehead</distags>
+			<distags>Currency</distags>
+			<distags>Ammo</distags>
+			<distags>Pipboy</distags>
+			<distags>Lockpick</distags>
+			<distags>Bottle</distags>
+			<distags>Collectible</distags>
+			<distags>Valuable</distags>
+			<distags>Resource</distags>
+			<distags>Scrap</distags>
+			<distags>Other</distags>
+			<distags>Trash</distags>
+      
+		</tab>
+		
+		<tab autoSubTabs="true">
+			<icon>mods</icon>
+			<name>$InventoryCategoryMods</name>
+			<filter>MODS</filter>
+		</tab>
+		
+		<tab autoSubTabs="true">
+			<icon>ammo</icon>
+			<name>$InventoryCategoryAmmo</name>
+			<filter>AMMO</filter>
+		</tab>
+	</tabs>
+</settings>

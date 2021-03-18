@@ -1,0 +1,282 @@
+<?xml version="1.0" ?>
+<!--
+Subcategory definition 
+	<subCategory tag='EXAMPLE'>
+						Replace EXAMPLE with the RegExp of all wanted tags. (google regexp for more syntax information)
+						more accurate filter - better performance
+						simple examples:
+						regexp										which tags it will find
+						"\|Key\|"									|Key|
+						"\(Food\)|\[(Prewar|Raw)\]"					(Food), [Prewar] and [Raw]
+						"[\(\[](Chem|Device)[\]\)]"					[Chem], (Chem), (Device), [Device]
+						"[\(\[\|](Grenade|Signal|Mine)[\|\]\)]"		Grenade, Signal and Mine within any of these brackets ({[]})
+						
+Required tags in <subCategory>
+	<tab>				Defines where the subcategory will be listed. 
+						Available Tabs: ALL, WEAPONS, APPAREL, AID, MISC, JUNK, MODS, AMMO
+						You can define more Tabs, e.g.: MISC+JUNK+MODS
+	
+	<text>				Title of subcategory
+	
+	<itemSource>		Where to search for items in this subcategory. This are the "original" tabs where the items would be. 
+						Available sources: ALL, WEAPONS, APPAREL, AID, MISC, JUNK, MODS, AMMO
+						You can define more Tabs, e.g.: AID+MISC+AMMO
+	
+Optional tags (mostly cosmetic)
+	<favorite> 			Add heart icon
+	<taggedForSearch> 	Add magnifier icon
+	<isLegendary> 		Add star icon
+	<equipState> 		Add square icon
+	<dontHideFromMainList> The items in this subcategory aren't removed from main list
+
+-->
+
+<subCategories>
+
+	<!-- deprecated
+	<subCategory tag=".*">
+		<tab>ALL</tab>
+		<icon>magglass</icon>
+		<text>$MOD_SEARCH</text>
+		<itemSource>0</itemSource>
+		<subSubFilter type="int">-2</subSubFilter>
+	</subCategory>	 -->
+
+	<subCategory tag=".*">
+		<tab>ALL</tab>
+		<text>«${RETURN}»</text>
+		<itemSource>0</itemSource>
+		<subSubFilter type="int">-1</subSubFilter>
+	</subCategory>
+	
+		
+	<subCategory tag="\[(Melee|Melee1H|Melee2H|RevDword|Ripper|Swatter|BaseballBat|CombatKnife|Shish|SuperSledge|Unarmed)\]">
+		<tab>WEAPONS</tab>
+		<icon>w_combat_knife</icon>
+		<text>«${M8r_Melee}»</text>		
+		<itemSource>WEAPONS</itemSource>
+	</subCategory>
+  
+	<subCategory tag="\[(Pistol|10mm|TheDeliverer|44P|InstitutePistol|PipeRevolver|LaserPistol|PlasmaPistol|AlienGun|Cryo|Syringer|PipeRifle|Leveraction|Rifle|HuntingRifle|Railway|GaussRifle|Musket|LaserRifle|PlasmaRifle|Shotgun|SMB|CombatRifle|AssaultRifle|Gamma|Minigun|Gatling|Flamethrower|Rocketlauncher|Fatman|Ranged|JunkJet|Cannon)\]">
+		<tab>WEAPONS</tab>
+		<icon>w_rifle</icon>
+		<text>«${M8r_Guns}»</text>
+		<itemSource>WEAPONS</itemSource>
+	</subCategory>
+  
+	<subCategory tag="\[(Grenade|Mine|Ammo)\]">
+		<tab>WEAPONS</tab>
+		<icon>gren</icon>
+		<text>«${M8r_Explosives}»</text>		
+		<itemSource>WEAPONS</itemSource>
+	</subCategory> 
+
+	<subCategory tag="\[\d?(Unique)\]">
+		<tab>WEAPONS</tab>
+		<icon>star</icon>
+		<text>«${M8r_Uniques}»</text>		
+		<itemSource>WEAPONS</itemSource>
+	</subCategory>  
+  	
+   
+	<subCategory tag="." >
+		<tab>APPAREL</tab>
+		<icon>pack</icon>
+		<text>«${All}»</text>
+		<itemSource>APPAREL</itemSource>		
+		<dontHideFromMainList>true</dontHideFromMainList>
+	</subCategory>
+	
+
+	<subCategory tag="\[(Clothes|Hat|Eyes|Mask|GasMask|Neck|Ring|Gloves|Underwear|FullOutfit|Pack|PackFull|PackLow|Dress)\]">		
+		<tab>APPAREL</tab>
+		<icon>casual</icon>
+		<text>«${M8r_Clothing}»</text>
+		<itemSource>APPAREL</itemSource>
+	</subCategory>
+
+	<subCategory tag="\[(Armor|Underarmor|Helm|FullHelm|FullArmor|VaultSuit|Biosuit|Set[^\]]+|Holster|ArmL|ArmR|LegL|LegR|Torso)\]">
+		<tab>APPAREL</tab>
+		<icon>armdef</icon>
+		<text>«${M8r_Armor}»</text>
+		<itemSource>APPAREL</itemSource>
+	</subCategory> 
+
+    
+	<subCategory tag="\[(Power[aA]rmor|PA_Raider|T45|T51|T60|X01|PowerHelm|PowerArmL|PowerArmR|PowerTorso|PowerLegL|PowerLegR)\]">
+		<tab>APPAREL</tab>
+		<icon>pa_head</icon>
+		<text>«${M8r_Power_Armor}»</text>
+		<itemSource>APPAREL</itemSource>
+	</subCategory>
+
+	<subCategory tag="\[(NonHuman|SuperMutant|Unknown)\]">
+		<tab>APPAREL</tab>
+		<icon>dog</icon>
+		<text>«${M8r_Dog} &amp; ${M8r_Super_Mutant}»</text>
+		<itemSource>APPAREL</itemSource>
+	</subCategory>
+  <!--
+  <subCategory tag="\[(Unique)\]">
+		<tab>APPAREL</tab>
+		<icon>star</icon>
+		<text>«${M8r_Uniques}»</text>		
+		<itemSource>APPAREL</itemSource>
+	</subCategory>  
+	-->
+
+	<!-- Tab: MISC -->
+	<subCategory tag="\[(Collectible|Valuable|Currency|Unique|PerkBobblehead|PerkMag|SkillMag|Ammo|Key|Password|Passcard|Note|NoteMisc|NotePubOcc|Holotape[PTV]?|Game|Settings|Device|Other|Bottle)\]">
+		<tab>MISC</tab>
+		<icon>pack</icon>
+		<text>«${All}»</text>
+		<!--<itemSource type="int">1664</itemSource>-->
+		<itemSource>JUNK+MISC+128</itemSource>
+		<dontHideFromMainList>true</dontHideFromMainList>
+	</subCategory>
+	
+	<subCategory tag="\[(Collectible|Valuable|Currency|Unique)\]">
+		<tab>MISC</tab>
+		<icon>diam</icon>
+		<text>«${M8r_Precious} &amp; ${M8r_Collectibles}»</text>
+		<itemSource>JUNK+MISC+128</itemSource>
+	</subCategory>
+	
+	<subCategory tag="\[(PerkBobblehead)\]">
+		<tab>MISC</tab>
+		<icon>bhead</icon>
+		<text>«${M8r_Bobbleheads_Collected}»</text>
+		<itemSource>JUNK+MISC+128</itemSource>
+	</subCategory>
+		
+	<subCategory tag="\[(PerkMag|SkillMag)\]">
+		<tab>MISC</tab>
+		<icon>mag</icon>
+		<text>«${M8r_Magazines_Found}»</text>
+		<itemSource>JUNK+MISC+128</itemSource>
+	</subCategory>
+	
+	<subCategory tag="\[(Ammo)\]">
+		<tab>MISC</tab>
+		<icon>ammo</icon>
+		<text>«${InventoryCategoryAmmo}»</text>
+		<itemSource>JUNK+MISC+128</itemSource>
+	</subCategory>
+	
+  
+	<subCategory tag="\[(Key|Password|Passcard)\]">
+		<tab>MISC</tab>
+		<icon>key</icon>
+		<text>«${M8r_Keys}, ${M8r_Passwords} &amp; ${M8r_ID_Cards}»</text>
+	</subCategory>
+  
+    <subCategory tag="\[(Note|NoteMisc|NotePubOcc)\]">
+		<tab>MISC</tab>
+		<icon>note</icon>
+		<text>«${M8r_Notes}»</text>
+	</subCategory>
+  
+	<subCategory tag="\[(Holotape[PTV]?)\]">
+		<tab>MISC</tab>
+		<icon>holo</icon>
+		<text>«${M8r_Holotapes}»</text>
+	</subCategory>
+	
+	  
+	<subCategory tag="\[(Game)\]">
+		<tab>MISC</tab>
+		<icon>game</icon>
+		<text>«${M8r_Holotape_Games}»</text>
+	</subCategory>
+  
+	<subCategory tag="\[(Settings)\]">
+		<tab>MISC</tab>
+		<icon>vault</icon>
+		<text>«${Settings}»</text>
+	</subCategory>
+ 
+	<subCategory tag="\[(Device)\]">
+		<tab>MISC</tab>
+		<icon>tool</icon>
+		<text>«${M8r_Devices}»</text>
+	</subCategory>
+
+	<subCategory tag="\[(Other|Bottle)\]">
+		<tab>MISC</tab>
+		<icon>sack</icon>
+		<text>«${M8r_Misc.}»</text>
+	</subCategory>
+  
+	<!-- Tab: JUNK -->
+	<subCategory tag="\[(Trash|Resource|Scrap)\]">
+		<tab>JUNK</tab>
+		<icon>pack</icon>
+		<text>«${All}»</text>		
+		<dontHideFromMainList>true</dontHideFromMainList>
+	</subCategory>
+	
+	<subCategory tag="\[(Trash)\]">
+		<tab>JUNK</tab>
+		<icon>n_trash</icon>
+		<text>«${M8r_Junk}»</text>
+	</subCategory>
+   
+	<subCategory tag="\[(Resource)\]">
+		<tab>JUNK</tab>
+		<icon>gold</icon>
+		<text>«${M8r_Resources}»</text>
+	</subCategory>
+	
+	<subCategory tag="\[(Scrap)\]">
+		<tab>JUNK</tab>
+		<icon>trash</icon>
+		<text>«${M8r_Scrap}»</text>
+	</subCategory>
+  
+	<!-- Tab: AID -->
+	<subCategory tag=".">
+		<tab>AID</tab>
+		<icon>pack</icon>
+		<text>«${All}»</text>
+		<itemSource>AID</itemSource>
+		<dontHideFromMainList>true</dontHideFromMainList>
+	</subCategory>
+	    
+	<subCategory tag="\[(Food|RadFood)\]">
+		<tab>AID</tab>
+		<icon>food</icon>
+		<text>«${M8r_Food}»</text>
+		<itemSource>AID</itemSource>
+	</subCategory>
+
+	<subCategory tag="\[(Drink)\]">
+		<tab>AID</tab>
+		<icon>bottle</icon>
+		<text>«${M8r_Drinks}»</text>
+		<itemSource>AID</itemSource>
+	</subCategory>
+	
+	<subCategory tag="\[(Liquor|Beer)\]">
+		<tab>AID</tab>
+		<icon>alc</icon>
+		<text>«${M8r_DrinksAlc}»</text>
+		<itemSource>AID</itemSource>
+	</subCategory>
+
+	<subCategory tag="\[(Stimpak|Aid)\]">
+		<tab>AID</tab>
+		<icon>med</icon>
+		<text>«${M8r_Medicine}»</text>
+		<itemSource>AID</itemSource>
+	</subCategory>
+
+	<subCategory tag="\[(Chem|Syringer)\]">
+		<tab>AID</tab>
+		<icon>chem</icon>
+		<text>«${M8r_Drugs}»</text>
+		<itemSource>AID</itemSource>
+	</subCategory>
+
+  
+  
+</subCategories>
