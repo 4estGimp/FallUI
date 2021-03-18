@@ -1,3 +1,3 @@
 # DEV_INV for FallUI
-This is a collection of FallUI files.
-The 3 files are as of 2021-03-17
+These are the 3 DEF_INV files I used for FallUI files.
+The 3 files are as of 2021-03-17.
